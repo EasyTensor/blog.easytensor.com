@@ -12,7 +12,12 @@
 
 name: Build and upload to GKE
 
-on: push
+on:
+  push:
+    tags:
+      - "*"
+  release:
+    types: [created]
 
 env:
   PROJECT_ID: ${{ secrets.GKE_PROJECT }}
