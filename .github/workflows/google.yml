@@ -53,3 +53,4 @@ jobs:
       - name: Publish
         run: |-
           make push
+
