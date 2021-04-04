@@ -25,7 +25,7 @@ spec:
           image: gcr.io/easytensor-291022/easytensor/blog:lastest
           ports:
             - name: http
-              containerPort: 8000
+              containerPort: 9080
           livenessProbe:
             httpGet:
               path: /
@@ -33,7 +33,7 @@ spec:
             failureThreshold: 1
             periodSeconds: 10
             initialDelaySeconds: 180
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
@@ -46,7 +46,7 @@ spec:
     service: blog
   ports:
     - protocol: TCP
-      port: 8000
+      port: 9080
       name: http
 ---
 apiVersion: extensions/v1beta1

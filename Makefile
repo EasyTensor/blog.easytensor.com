@@ -1,5 +1,5 @@
 serve:
-	hugo serve -t simple-blog -p 8000
+	hugo server -t simple-blogv -p 9080
 
 build:
 	docker build . -t gcr.io/easytensor-291022/easytensor/blog:lastest
