@@ -4,10 +4,10 @@ metadata:
   name: blog
 ---
 apiVersion: apps/v1
-namespace: blog
 kind: Deployment
 metadata:
   name: blog
+  namespace: blog
 spec:
   replicas: 1
   selector:
@@ -37,8 +37,8 @@ spec:
 ---
 apiVersion: v1
 kind: Service
-namespace: blog
 metadata:
+  namespace: blog
   name: blog-service
 spec:
   selector:
