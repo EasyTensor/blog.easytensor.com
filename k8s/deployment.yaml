@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: blog
-          image: gcr.io/easytensor-291022/easytensor/blog:0.2.1
+          image: gcr.io/easytensor-291022/easytensor/blog:0.2.2
 
           ports:
             - name: http
