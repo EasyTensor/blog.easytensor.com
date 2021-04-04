@@ -1,3 +1,25 @@
 baseURL = "https://easytensor.github.io/"
 languageCode = "en-us"
 title = "EasyTensor Blog"
+
+theme = "simple-blog"
+copyright = "© 2021 copyright EasyTensor"
+paginate = 10
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+[params]
+description = "EasyTensor Blog"
