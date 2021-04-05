@@ -52,3 +52,7 @@ There is a lot more to come from EasyTensor in the coming weeks. Here are a few 
 - Hugging Face model support
 - Deployment Logs
 - Model Pages
+
+# Stay Updated
+
+If you want to get the latest updates on EasyTensor, sign up at [www.easytensor.com](https://www.easytensor.com/)
