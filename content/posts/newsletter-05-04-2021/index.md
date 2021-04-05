@@ -1,6 +1,6 @@
 ---
 title: "Newsletter #1"
-date: 2021-04-04T12:51:51-04:00
+date: 2021-04-05T12:51:51-04:00
 summary: "PyTorch, Explore Tab, Redesigned Cards, The Blog"
 draft: false
 ---
