@@ -17,7 +17,7 @@ This newsletter packs a bunch of updates, so strap in!
 
 This has been a long time coming, but we're finally releasing support to the second most popular machine learning framework: PyTorch. With it comes a new selector for frameworks on the upload page.
 
-{{< imgproc framework_selector.png Resize "1080x png" >}}
+{{< imgproc "framework_selector.png" Resize "1080x png" >}}
 
 ---
 
@@ -25,7 +25,7 @@ This has been a long time coming, but we're finally releasing support to the sec
 
 EasyTensor now has a whole new tab: `Explore`. It is the perfect place for new users to see what others have built and what public models they can use and upload.
 
-{{< imgproc explore.png Resize "1080x png" >}}
+{{< imgproc "explore.png" Resize "1080x png" >}}
 
 ---
 
