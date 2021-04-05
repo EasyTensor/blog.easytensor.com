@@ -2,7 +2,7 @@ baseURL = "https://blog.easytensor.com/"
 languageCode = "en-us"
 title = "EasyTensor Blog"
 
-theme = "simple-blog"
+theme = ["simple-blog"]
 copyright = "© 2021 copyright EasyTensor"
 paginate = 10
 DefaultContentLanguage = "en"
