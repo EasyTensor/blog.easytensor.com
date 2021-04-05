@@ -37,7 +37,7 @@ Instead of plain text, we opted for a more visual experience. All the informatio
 
 The card is highly interactive and you can edit your model's details right from the main page.
 
-![Model Card](test.gif)
+![Model Card](model_card_resized.gif)
 
 ---
 
